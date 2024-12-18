@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-">
+        <li class="text">Вход</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-">
+        <li class="text">Экстерьер</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-">
+        <li class="text">Ресепшен</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-">
+        <li class="text">Холл</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4---1-">
+        <li class="text">Холл лестница 1 этаж</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5----101">
+        <li class="text">Холл, вход в 101</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-101--">
+        <li class="text">101 Входная группа</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-101-">
+        <li class="text">101 Спальная</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-105----">
+        <li class="text">105 Джуниор Сюит Плюс – Гостиная</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-105----">
+        <li class="text">105 Джуниор Сюит Плюс – Санузел</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-106------">
+        <li class="text">106 Джуниор Сюит Плюс – входная зона</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-106------">
+        <li class="text">106 Джуниор Сюит Плюс – Доп места</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-106-----">
+        <li class="text">106 Джуниор Сюит Плюс – Санузел</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-101-----2">
+        <li class="text">101 Джуниор Сюит Плюс – Санузел (2)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-110-1----">
+        <li class="text">110 1-комнатный Люкс – Ванная</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-110-1-----">
+        <li class="text">110 1-комнатный Люкс – Входная зона</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-111--2--">
+        <li class="text">111 Люкс (2) – Ванная</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-111--2---">
+        <li class="text">111 Люкс (2) – Входная зона</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-111--2--">
+        <li class="text">111 Люкс (2) – Гостиная</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-111--2--">
+        <li class="text">111 Люкс (2) – спальня</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-111--2-">
+        <li class="text">111 Люкс (2) – Гардеробная</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-210--">
+        <li class="text">210 Стандарт – Санузел</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-210-">
+        <li class="text">210 Стандарт</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-210---">
+        <li class="text">210 Стандарт Доп места</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-212---">
+        <li class="text">212 Люкс – Ванная</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-212---">
+        <li class="text">212 Люкс – Гостиная</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-212---">
+        <li class="text">212 Люкс – Спальня</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27-212--">
+        <li class="text">212 Люкс – Гардеробная</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28-">
+        <li class="text">Лестница</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29-">
+        <li class="text">Лифт</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30--2--">
+        <li class="text">Холл, 2-й этаж</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31----107--">
+        <li class="text">Холл, вход в 107-й (Стандарт)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32----108--">
+        <li class="text">Холл, вход в 108-й (Стандарт)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33----110--1--">
+        <li class="text">Холл, вход в 110-й (1-комнатный Люкс)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34----209--">
+        <li class="text">Холл, вход в 209-й (Стандарт)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35----210--">
+        <li class="text">Холл, вход в 210-й (Стандарт)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36----212--">
+        <li class="text">Холл, вход в 212-й (Люкс)</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
